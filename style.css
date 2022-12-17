@@ -8,6 +8,7 @@
 
 nav.header-left {
   float: left;
+ 
 }
 
 nav.header-right {
@@ -60,14 +61,14 @@ div.search-bar {
   height: 30px;
   position: relative;
   top: 10px;
-  right: 450px;
+  left: 50px;
 }
 
 .mic {
   position: relative;
   width: 30px;
   height: 30px;
-  right: 75px;
+  right: 30px;
   top: 8px;
 }
 
@@ -77,6 +78,7 @@ div.search-bar {
   border-radius: 20px;
   border: 1px solid lightgray;
   padding-left: 50px;
+ 
 }
 #but1 {
   height: 36px;
