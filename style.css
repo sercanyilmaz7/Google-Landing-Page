@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+nav.header-left {
+  float: left;
+}
+
+nav.header-right {
+  float: right;
+}
+header {
+  width: 100%;
+  padding-top: 15px;
+}
+
+div.container {
+  text-align: center;
+  margin-top: 200px;
+}
+.clear {
+  clear: both;
+}
+
+div.search-bar {
+  padding: 20px;
+}
+
+.head-link{
+     color: #5f6368;
+    text-decoration: none;
+    margin: 0.75em;
+}
+
+#sign-in-btn{
+    color: white;
+    background-color: #4285f4;
+    border: none;
+    height: 30px;
+    width: 70px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+#sign-in-btn:hover{
+    cursor: pointer;
+}
+
+#appicon{
+    vertical-align: middle;
+    opacity: 0.5;
+}
+
+#mag {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 10px;
+  right: 450px;
+}
+
+.mic {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  right: 75px;
+  top: 8px;
+}
+
+#search {
+  width: 460px;
+  height: 38px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  padding-left: 50px;
+}
+#but1 {
+  height: 36px;
+  width: 140px;
+  border: hidden;
+  border-radius: 4px;
+}
+
+#but2 {
+  height: 36px;
+  width: 140px;
+  border: hidden;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+#but1,#but2:hover{
+    cursor: pointer;
+}
+
+#search:hover {
+  box-shadow: 2px 2px;
+}
+
+#lang{
+    margin-top: 20px;
+}
+
+
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #f2f2f2;
+    line-height: 40px;
+}
+
+nav.foot-left{
+    float: left;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+
+nav.foot-right{
+    float: right;
+    background-color: #f2f2f2;
+}
+
+.foot-links{
+    color: #5f6368;
+    text-decoration: none;
+    margin-right: 0.75em;
+    margin-left: 0.75em;
+
+} 
+
+.foot-div{
+    color: #5f6368;
+    margin-left: 1em;
+}
